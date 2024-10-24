@@ -22,10 +22,22 @@
             <ul class="navele list-unstyled d-flex mb-0">
                 <li><a href="#" class="element">Home</a></li>
                 <li><a href="#" class="element">Shop</a></li>
-                <li><a href="#" class="element">Recipes</a></li>
+                <li><a href="#" class="element " role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Recipes</a>
+                    <ul class="dropdown-menu recipemainitem">
+                        <li class="recipeitem"><a href="cookiespage.html" class="dropdown-item">Cookies</a></li>
+                        <li class="recipeitem"><a href="cakepage.html" class="dropdown-item">Cakes</a></li>
+                        <li class="recipeitem"><a href="#" class="dropdown-item">Cupcakes & Muffins</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li class="recipeitem"><a href="#" class="dropdown-item">All Recipes</a></li>
+
+                    </ul>
+                </li>
                 <li><a href="#" class="element">About</a></li>
             </ul>
-            
+
             <div class="searching ms-auto">
                 <img src="imgs/searchlogo.svg" alt="search" class="searchlogo">
                 <input class="search" type="text" placeholder=" Search Here...">
@@ -34,28 +46,77 @@
         <div class="title d-flex align-items-center">
             Crumbs <div class="sign">&</div> Co<div class="sign">.</div>
             <img src="imgs/cookielogo.png" alt="logo" class="cookielogo">
-        </div>  
-        
+        </div>
+
         <div class="row gy-0 gx-3"> <!-- Added specific gutter classes -->
             <div class="col-8"> <!-- Removed padding class -->
                 <div class="content p-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit magnam iure harum ducimus libero vel alias assumenda veritatis facilis culpa cum reprehenderit nulla doloremque blanditiis minus dolore voluptatibus nostrum sed. Sapiente ducimus voluptatum voluptates et necessitatibus cum maiores mollitia, neque deserunt temporibus facilis nihil eligendi odio odit explicabo exercitationem nemo ullam recusandae obcaecati assumenda ut distinctio illum ad? Eligendi laudantium iure assumenda tempore voluptates deserunt cumque soluta quibusdam, nihil, ratione optio voluptatibus sint voluptas voluptatem dolorum similique unde, doloremque obcaecati totam aspernatur facilis corrupti quo! Quam inventore reiciendis aliquam nesciunt ducimus, voluptatum vitae? Nesciunt eaque excepturi, sapiente ut fugiat quis labore quos modi. Recusandae aliquid quod itaque numquam. Tempora possimus laboriosam consequuntur ut ipsa totam accusamus dolorum in, animi maiores rerum, impedit ipsum soluta pariatur temporibus! Esse impedit totam ducimus itaque eligendi reprehenderit, sequi eos recusandae blanditiis optio ex veniam repudiandae enim? Architecto harum autem nostrum quos animi eligendi ducimus corrupti aperiam sit a labore odio modi maiores dolores excepturi, optio perspiciatis alias magni esse explicabo nemo, ex natus aliquam? Debitis blanditiis atque dolorem autem a, eos iste ullam eveniet nemo totam ipsa repellat! Quae et dignissimos ut nostrum ea alias, repellat eos dolore debitis excepturi quia saepe eum.
+                    <div class="carousel slide cookiescar" data-bs-ride="carousel" id="demo">
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/car1.jpg" alt="cookie1" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/car3.avif" alt="cookie2" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/car2.jpg" alt="cookie3" class="d-block w-100">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit magnam iure harum ducimus
+                    libero vel alias assumenda veritatis facilis culpa cum reprehenderit nulla doloremque blanditiis
+                    minus dolore voluptatibus nostrum sed. Sapiente ducimus voluptatum voluptates et necessitatibus cum
+                    maiores mollitia, neque deserunt temporibus facilis nihil eligendi odio odit explicabo
+                    exercitationem nemo ullam recusandae obcaecati assumenda ut distinctio illum ad? Eligendi laudantium
+                    iure assumenda tempore voluptates deserunt cumque soluta quibusdam, nihil, ratione optio
+                    voluptatibus sint voluptas voluptatem dolorum similique unde, doloremque obcaecati totam aspernatur
+                    facilis corrupti quo! Quam inventore reiciendis aliquam nesciunt ducimus, voluptatum vitae? Nesciunt
+                    eaque excepturi, sapiente ut fugiat quis labore quos modi. Recusandae aliquid quod itaque numquam.
+                    Tempora possimus laboriosam consequuntur ut ipsa totam accusamus dolorum in, animi maiores rerum,
+                    impedit ipsum soluta pariatur temporibus! Esse impedit totam ducimus itaque eligendi reprehenderit,
+                    sequi eos recusandae blanditiis optio ex veniam repudiandae enim? Architecto harum autem nostrum
+                    quos animi eligendi ducimus corrupti aperiam sit a labore odio modi maiores dolores excepturi, optio
+                    perspiciatis alias magni esse explicabo nemo, ex natus aliquam? Debitis blanditiis atque dolorem
+                    autem a, eos iste ullam eveniet nemo totam ipsa repellat! Quae et dignissimos ut nostrum ea alias,
+                    repellat eos dolore debitis excepturi quia saepe eum.
                     <!-- Your Lorem ipsum content -->
                 </div>
             </div>
             <div class="col-4"> <!-- Removed padding class -->
                 <div class="sidecontent p-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate tempora tempore aperiam quisquam nostrum autem ipsa eveniet cum, omnis facilis laborum culpa doloribus sunt ad saepe labore iure temporibus adipisci reprehenderit at unde! Vel laborum, fugiat illum nisi dolorem dolore accusantium iste ab iure possimus ipsum labore. Soluta, odio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea natus autem consequatur unde quia in ipsa facilis fugit ad velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore. Lorem ips
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate tempora tempore aperiam
+                    quisquam nostrum autem ipsa eveniet cum, omnis facilis laborum culpa doloribus sunt ad saepe labore
+                    iure temporibus adipisci reprehenderit at unde! Vel laborum, fugiat illum nisi dolorem dolore
+                    accusantium iste ab iure possimus ipsum labore. Soluta, odio? Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Ea natus autem consequatur unde quia in ipsa facilis fugit ad velit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, inventore. Lorem ips
                     <!-- Your Lorem ipsum content -->
                 </div>
             </div>
         </div>
     </div>
-        <footer>
-            For More Info Contact Us
-        </footer>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-    </html>
-    
+    <footer>
+        For More Info Contact Us
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
