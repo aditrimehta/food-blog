@@ -3,69 +3,59 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-variation-settings:
-        "wdth" 100;
-    font-style: normal;
-
 }
-/*
-.fredoka-<overhead> {
-    font-family: "Fredoka", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}*/
 
 .overhead {
-    
     background-color: #8f3232;
+    margin-bottom: 5px;
     color: #ffc0c0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0; /* Combined padding */
     text-align: center;
     width: 100%;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
-    background-color:  	#fcded1;
+    /* Removed background color and margin, handled by Bootstrap */
     border-radius: 10px;
-    margin: 5px;
     padding: 10px;
     box-shadow: 5px 2px 30px rgb(56, 56, 56);
 }
-.element{
+
+.element {
     color: #000000;
     text-decoration: none;
-    display: inline-block;
-    padding:5px 10px 5px 10px;
+    padding: 5px 10px;
 }
-li{
+
+li {
     display: inline-block;
 }
-.element:hover{
+
+.element:hover {
     border-radius: 5px;
     box-shadow: 3px 3px 40px rgb(134, 70, 70);
 }
-.searching{
+
+.searching {
     display: flex;
     align-items: center;
     margin-left: auto;
     padding-right: 10px;
 }
-.search{
+
+.search {
     padding: 4px;
 }
-.searchlogo{
+
+.searchlogo {
     width: 20px;
-    height:20px;
+    height: 20px;
     margin-right: 5px;
 }
-.title{
+
+.title {
     display: flex;
     align-items: center;
     font-size: 90px;
@@ -73,46 +63,37 @@ li{
     padding: 10px;
     color: #8f3232;
     border-radius: 10px;
-    box-shadow: 5px 2px 30px rgb(56, 56, 56);   
+    box-shadow: 5px 2px 30px rgb(56, 56, 56);
 }
-.sign{
+
+.sign {
     display: inline-block;
-    color:#e8a0a0;
-    padding: 0px 20px 0px 20px;
+    color: #e8a0a0;
+    padding: 0 20px;
 }
-.cookielogo{
+
+.cookielogo {
     width: 120px;
     padding: 10px;
     margin-left: auto;
 }
-footer{
+
+footer {
     width: 100%;
     text-align: center;
-    border: 1px black solid;
-    
+    border: 1px solid black; /* Kept for custom styling */
     background-color: #8f3232;
     color: #ffc0c0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px 0; /* Combined padding */
 }
-.content,.sidecontent{
-    display: inline-block;
-    align-items: center;
-    
+
+.content,
+.sidecontent {
     font-size: 20px;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 10px;
     color: #441414;
     border-radius: 10px;
-    
-    box-shadow: 5px 2px 30px rgb(56, 56, 56);  
-}
-.content{
-    width: 69%;
-    height: 500px;
-}
-.sidecontent{
-    width:29%;
-    height: 500px;
-    
+    box-shadow: 5px 2px 30px rgb(56, 56, 56);
 }
