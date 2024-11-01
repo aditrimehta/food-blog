@@ -242,4 +242,19 @@ ul.dropdown-menu li a:hover {
       transform: translateY(0);
     }
   }
-  
+  .bakerimg{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    
+  }
+  .aboutpic, .aboutcont{
+height: 50vh;
+  }
+  .aboutpic{
+    overflow: hidden;
+  }
+.minisign{
+    display: inline;
+    color: #e8a0a0;
+}
