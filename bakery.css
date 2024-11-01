@@ -100,9 +100,18 @@ footer {
     height: 50px;
     width: auto;
 } */
+ .titlehovers:hover{
+    border-radius: 10px;
+    box-shadow: 5px 2px 30px rgb(85, 28, 28);
+ }
 /* Add these styles */
 .cookiescar {
     margin-bottom: 20px; /* Space between carousel and text */
+}
+.cookiescar:hover{
+    border: #4d0a0a solid 2px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 30px rgb(85, 28, 28);
 }
 
 .carousel-inner {
@@ -142,6 +151,7 @@ footer {
     color: #441414;
     border-radius: 10px;
     box-shadow: 5px 2px 30px rgb(56, 56, 56);
+    transition: all 0.3s ease; 
 }
 .cardbtn{
     color: #441414 !important;
@@ -189,6 +199,11 @@ ul.dropdown-menu li a:hover {
     height:300px;
     object-fit: cover;
 }
+.desertcards:hover{
+    border-radius: 10px;
+    box-shadow: 5px 2px 30px rgb(85, 28, 28);
+    scale:1.1
+}
 .newsletter{
     text-align: center;
 }
@@ -210,3 +225,21 @@ ul.dropdown-menu li a:hover {
 .sidecontent a{
     color: #441414;
 }
+
+.fade-in-section {
+    opacity: 0; /* Start invisible */
+    transform: translateY(20px); /* Optional: slight movement for added effect */
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
