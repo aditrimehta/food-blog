@@ -1,3 +1,5 @@
-Welcome to my food blog 😊
-Just a website project to help me learn front end web dev better 🎂
-It's a work in progress right now but will be updated constantly :) 
+Welcome to my food blog 😊 
+
+Just a website mini project to practice basic front-end 🎂
+
+It's a work in progress right now :) 
